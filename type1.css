@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+body {
+	background-color: #fffdfd;
+    background-image: url('../form\ pendaftaran/th.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+        height: 90vh;
+        position: relative;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+	/*background-color:#00BAC7;*/
+}
+
+h1 {
+	text-align: center;
+	font-family: "Calibri";
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+    margin-bottom: 30px;
+}
+h2 {
+	text-align: center;
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+    margin-bottom: 30px;
+}
+
+h3 {
+	text-align: center;
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+}
+
+p {
+	font-size: 12pt;
+	line-height: 150%;
+	padding:10px;
+	background-color: rgba(242,242,242,0.8);
+	width: 600px;
+	text-align: center;
+	margin: auto;
+    margin-bottom: 80px;
+}
+.menu {
+	text-align: center;
+	background-color: #EDF3F3;
+    font-family: "Calibri";
+    font-size:18px;
+    padding-top: 15pt;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover{
+    color: #ff3d00;
+}
+
+.button {
+	background-color: #e5e5e5;
+	padding: 10px;
+	border-color: black;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+	background-color: #bababa;
+}
+footer{
+    bottom: 0;
+ left: 0;
+ background-color: rgba(242,242,242,0.8);
+ text-align: center;
+ height: 40px;
+ width: 100%;
+ padding: 10px;
+}

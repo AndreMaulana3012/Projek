@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pembangunan pada Wilayah Timur</title>
+    <link rel="stylesheet" href="type.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <noscript>
+      <style type="text/css">
+        [data-aos] {
+            opacity: 1 !important;
+            transform: translate(0) scale(1) !important;
+        }
+      </style>
+    </noscript>
+</head>
+<body>
+    <nav>
+        <div class="menu-icon">
+           <span class="fas fa-bars"></span>
+        </div>
+        <div class="logo">
+           <a href="Info.html"><img src="..//form pendaftaran/edited-removebg-preview.png"></a>
+        </div>
+        <div class="nav-items">
+           <li><a href="Info.html">Home</a></li>
+           <li><a href="sulawesi.html">Sulawesi</a></li>
+           <li><a href="Nusa Tenggara.html">Nusa Tenggara</a></li>
+           <li><a href="papua4.html">Papua</a></li>
+           <li><a href="maluku.html">Maluku</a></li>
+       </div>
+        <div class="search-icon">
+           <span class="fas fa-search"></span>
+        </div>
+        <div class="cancel-icon">
+           <span class="fas fa-times"></span>
+        </div>
+        <form action="jajal.html">
+            <input type="search" id="value" placeholder="Search" required>
+            <button type="submit" class="fas fa-search"></button>
+        </form>
+     </nav>
+      <!-- banner-->
+    <section class="banner">
+        <h2>Selamat Datang di ITNews</h2>
+    </section>
+
+    <main>
+        <section id="aboutus">
+            <h3>About Us</h3>
+            <p class="ringkasan">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eveniet, ratione eos quae facilis iure vitae quasi excepturi sunt repudiandae dignissimos.
+            </p><br>
+            <div class="konten-isi">
+            <p>
+                ITNews adalah portal berita dengan fokus pada pemberitaan tentang pembangunan di wilayah Timur Indonesia. Fokus utama kami dalam pemberitaan adalah pembangunan dan ekonomi,
+                dimana kami berharap dengan adanya pemberitaan ini masyarakat lebih peduli terhadap perkembangan di wilayah Timur Indonesia dan turut ikut serta dalam melaksanakan pembangunan di wilayah tersebut. Mungkin dengan adanya berita yang kami berikan masyarakat dapat mengetahui bahwa infrastruktur di wilayah Timur Indonesia masih sangat tertinggal.<br><br>
+                Hipotesis kami, pasar kawasan efektif akan memberikan dampak positif yang besar pada perekonomian pada wilayah timur sehingga sangat membantu dalam perkembangan infrastruktur. Pembentukan pasar kawasan Indonesia Timur berawal dari informasi antar daerah yang intensif. Pertukaran ini kemudian akan menginspirasi pengusaha dan pemerintah untuk pembangunan jaringan-jaringan kerja dengan mensiasati keterbatasan infrastruktur maupun teknologi. Proses Penyelesaian masalah dalam pembangunan jaringan kerja tersebut yang kemudian menjadi landasan utama pembangunan kawasan.<br><br>
+                Berlandaskan pemikiran di atas, kami menekankan juga pendekatan perspektif lokal yang tentunya diharapkan akan membantu membentuk perspektif kawasan. Perspektif lokal ini pada akhirnya diharapkan dapat memfasilitasi komunikasi antar budaya dalam konteks "Membangun Indonesia Timur Lebih Maju".
+            </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer id="contact">
+        <div class="layar-dalam">
+            <div class="foter">
+                <h5 class="bnm">Media Sosial</h5><br>
+                    <a href="https://www.facebook.com/profile.php?id=100085870377493"><i class="fa-brands fa-square-facebook fa-4x"></i></a>
+                    <a href="https://instagram.com/itnews___?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-square-instagram fa-4x"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100085870377493"><i class="fa-brands fa-square-twitter fa-4x"></i></a>               
+            </div> 
+            <div>
+                <h5 class="kml">Contact</h5>
+                <ul>
+                    <li class="bcd">Itnews1@gmail.com</li>
+                    <li class="bcd">+62 83806257314</li>
+                </ul>
+            </div>
+            <div>
+                <h5>Info</h5><br>
+                <ul class="abc">
+                    <li><a href="Info.html">Home</a></li>
+                    <li><a href="sulawesi.html">Sulawesi</a></li>
+                    <li><a href="Nusa Tenggara.html">Nusa Tenggara</a></li>
+                    <li><a href="papua4.html">Papua</a></li>
+                    <li><a href="maluku.html">Maluku</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="layar-dalam">
+            <div class="copyright">
+                &copy; 2022 ITNews Indonesia Timur
+            </div>
+        </div>
+    </footer>    
+      <script>
+         const menuBtn = document.querySelector(".menu-icon span");
+         const searchBtn = document.querySelector(".search-icon");
+         const cancelBtn = document.querySelector(".cancel-icon");
+         const items = document.querySelector(".nav-items");
+         const form = document.querySelector("form");
+         menuBtn.onclick = ()=>{
+           items.classList.add("active");
+           menuBtn.classList.add("hide");
+           searchBtn.classList.add("hide");
+           cancelBtn.classList.add("show");
+         }
+         cancelBtn.onclick = ()=>{
+           items.classList.remove("active");
+           menuBtn.classList.remove("hide");
+           searchBtn.classList.remove("hide");
+           cancelBtn.classList.remove("show");
+           form.classList.remove("active");
+           cancelBtn.style.color = "#ff3d00";
+         }
+         searchBtn.onclick = ()=>{
+           form.classList.add("active");
+           searchBtn.classList.add("hide");
+           cancelBtn.classList.add("show");
+         }
+      </script>
+   </body>
+</html>
